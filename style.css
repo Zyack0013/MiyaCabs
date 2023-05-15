@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-c1:#F4BC16;
+    --bg-c2:#FDF5DF;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+span{
+    color: var(--bg-c1);
+}
+
+
+
+.navbar{
+    font-weight: 500;
+    font-size: 22px;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 40px;
+}
+.navbar ul li a:active{
+    color: var(--bg-c1);
+}
+.navbar ul li a:focus{
+    color: var(--bg-c1);
+}
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 124.69%;
+}
+
+/* welcome Section */
+
+.welcome-container{
+    width: 100%;
+    position: relative;
+
+}
+.welcome-text{
+    position: absolute;
+    width: 60%;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    font-size: 40px;
+
+}
+.call-text{
+    font-weight: bold;
+    position: absolute;
+    padding-top: 19rem;
+    padding-left: 5rem;
+    width: 50%;
+}
+.welcome-image img{
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 6rem;
+}
+.welcome-img-bg{
+    width: 380px;
+    height: 400px;
+    background-color: var(--bg-c1);
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+
+    z-index: -1;
+    right: 1rem;
+    top: 2rem;
+}
+/* Work experiance */
